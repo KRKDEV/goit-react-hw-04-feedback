@@ -1,0 +1,25 @@
+.stats__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+  background-color: rgb(49, 49, 49);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  max-width: 220px;
+  border: 1px solid white;
+}
+
+span {
+  color: rgb(255, 69, 0);
+  font-weight: 600;
+}
